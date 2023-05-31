@@ -375,4 +375,20 @@ function clickreiniciar() {
     let b7 = document.getElementById('btn7');
     let b8 = document.getElementById('btn8');
     let b9 = document.getElementById('btn9');
+
+    b1.value = ' ';
+    b2.value = ' ';
+    b3.value = ' ';
+    b4.value = ' ';
+    b5.value = ' ';
+    b6.value = ' ';
+    b7.value = ' ';
+    b8.value = ' ';
+    b9.value = ' ';
+
+    let lbljogador = document.getElementById('lbljogador')
+    let lbljogadas = document.getElementById('lbljogadas')
+
+    lbljogador.innerText = 'Jogador X'
+    lbljogadas.innerText = '(1ª Jogada)'
 }
